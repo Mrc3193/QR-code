@@ -1,0 +1,46 @@
+@media screen and (max-width: 375px), screen and (min-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        font-family: "Outfit", sans-serif;
+        background-color: #d5e1ef;
+    }
+    .qr-code {
+        width: 320px;
+        height: 499px;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 16px 16px 40px 16px;
+    }
+    .code {
+        width: 288px;
+        height: 288px;
+        border-radius: 10px;
+        margin-bottom: 24px;
+    }
+    .text {
+        width: 288px;
+        height: 131px;
+      
+        text-align: center;
+        padding: 0 16px;
+    }
+    h1 {
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 120%;
+        color: #1f314f;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+    p {
+        font-size: 15px;
+        line-height: 140%;
+        letter-spacing: 0.2px;
+        color: #68778d;
+        margin: 0;
+    }
+    
+}
